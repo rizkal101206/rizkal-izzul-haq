@@ -1,0 +1,30 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+}
+.wrap {
+  width: max-content;
+}
+.typing {
+  overflow: hidden;
+  white-space: nowrap;
+
+  animation: typing 2s steps(50) infinite alternate, blink 0.7s infinite;
+}
+@keyframes typing {
+  0% {
+    width: 0%;
+    visibility: hidden;
+  }
+  100% {
+    width: 100%;
+  }
+}
